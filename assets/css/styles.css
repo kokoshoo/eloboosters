@@ -1,0 +1,154 @@
+html{
+
+}
+body {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background:url("../img/background.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+header{
+  height:320px;
+
+}
+
+#banner{
+  width:100%;
+  display:block;
+  margin-bottom: 2.2em;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+#main_menu > li{
+  display:inline;
+}
+
+#main_menu a{
+  background:gray;
+  color:white;
+  font-weight: bold;
+  text-decoration: none;
+  padding:2em 4em;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 4px 4px 20px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.75);
+}
+
+#main_menu a:active, #main_menu a:hover {
+  background: rgb(46, 46, 46);
+}
+
+/*Page Container *******************/
+
+.container-narrow {
+  margin: 0 auto;
+  max-width: 800px;
+  background: white;
+  padding:1em;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+.container-narrow > hr {
+
+}
+
+/*Page Container End*****************/
+
+/*Index Content********/
+
+.jumbotron {
+  margin: 60px 0;
+  text-align: center;
+}
+
+#regions{
+  text-align: center;
+}
+
+#regions ul{
+  list-style-type: none;
+  font-size: 160%;
+}
+
+#regions > ul > li{
+  margin: 10px 0;
+}
+
+#services{
+  margin-bottom: 15em;
+  text-align: center;
+}
+
+#service_info{
+  text-align: center;
+  max-width:500px;
+  list-style-type: none;
+  margin: 0 auto 4em auto;
+}
+
+#service_info > ul{
+  text-align: left;  
+}
+
+#service_type{
+  text-align: center;
+}
+
+#service_type a{
+  background: rgb(75, 75, 90);
+  color:white;
+  margin: .5em 1em;
+  padding:1em;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#service_type > a:hover{
+background:#222222;
+}
+
+#service_view{
+  margin-top:4.5em;
+  width:100%;
+  text-align: center
+}
+
+#service_view > div{
+  width:80%;
+  margin:0 auto;  
+}
+
+/*Index Content End*********/
+
+@media (max-width: 550px) {
+  #service_type > a{
+    display:block;
+  }
+
+  header *{
+  display:block;
+  margin-bottom:10px;
+  margin-left:0;
+}
+  #banner{
+    width: 100%;
+  }
+
+
+}
