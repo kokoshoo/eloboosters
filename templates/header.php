@@ -44,6 +44,7 @@
         <ul id="main_menu">
           <li><a href="./index">Home</a></li>
           <li><a href="./contact">Contact</a></li>
+          <li></li>
         </ul>
         
       </header>

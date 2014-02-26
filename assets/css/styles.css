@@ -11,14 +11,25 @@ body {
   background-size: cover;
 }
 header{
-  height:320px;
-
+  width: 100%;
+  padding-top:1em;
+  padding-bottom:3em;
+  background-image:url("../img/header.png");
 }
 
+footer{
+  color:white;
+  background-image:url("../img/footer.png");
+  margin-top: 10em;
+  padding:3em 1em 2em 1em;
+}
+
+
 #banner{
-  width:100%;
+  width:75%;
   display:block;
-  margin-bottom: 2.2em;
+  margin: auto;
+  margin: 0 auto 4.2em auto;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
@@ -35,8 +46,9 @@ header{
   background:gray;
   color:white;
   font-weight: bold;
+  font-size:150%;
   text-decoration: none;
-  padding:2em 4em;
+  padding:1.5em 3em;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -45,17 +57,24 @@ header{
   box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.75);
 }
 
-#main_menu a:active, #main_menu a:hover {
-  background: rgb(46, 46, 46);
+
+
+#main_menu a:active, #main_menu a:hover{
+  background: rgb(229, 231, 177);
+  color:black;
+}
+
+#main_menu a.current{
+  background:#ACC4D0;
+  color:#000000;
 }
 
 /*Page Container *******************/
 
 .container-narrow {
   margin: 0 auto;
-  max-width: 800px;
-  background: white;
-  padding:1em;
+  max-width: 1000px;
+  background-image:url("../img/background2.png");
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
@@ -64,8 +83,17 @@ header{
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
 }
-.container-narrow > hr {
-
+.container-narrow > div {
+  width:95%;
+  padding:1em;
+  margin:0 auto;
+  background:white;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
 }
 
 /*Page Container End*****************/
@@ -75,6 +103,16 @@ header{
 .jumbotron {
   margin: 60px 0;
   text-align: center;
+  padding:1em;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+.jumbotron > p{
+  padding: 1em;
 }
 
 #regions{
@@ -91,7 +129,6 @@ header{
 }
 
 #services{
-  margin-bottom: 15em;
   text-align: center;
 }
 
@@ -117,10 +154,20 @@ header{
   padding:1em;
   cursor: pointer;
   text-decoration: none;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+
 }
 
 #service_type > a:hover{
-background:#222222;
+  background:#222222 !important;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
 }
 
 #service_view{
@@ -134,7 +181,66 @@ background:#222222;
   margin:0 auto;  
 }
 
+#perdiv_view{
+  display:none;
+}
+
+#perdiv_view > div{
+  width:40%;
+}
+
+#perwin_view{
+
+  display:none;
+}
+
+#unranked_view{
+  display:none;
+}
+
+#current_div{
+  float:left;
+}
+
+#desired_div{
+  float:right;
+}
+
+#perdiv_price{
+  clear:both;
+}
+
 /*Index Content End*********/
+
+/*Contact us Start *********/
+.skype{
+  width:5em;
+}
+
+#skype_contact{
+  text-align: center;
+}
+
+#skype_contact ul{
+  list-style: none;
+}
+
+#skype_contact ul > li > *{
+  display:inline;
+}
+
+#skype_contact ul > li > a{
+  margin-right: 1em;
+}
+
+#email_contact{
+  text
+  padding:2em;
+}
+
+
+
+/*Contact us End ***********/
 
 @media (max-width: 550px) {
   #service_type > a{
@@ -143,12 +249,39 @@ background:#222222;
 
   header *{
   display:block;
-  margin-bottom:10px;
+  margin-bottom:.6em;
   margin-left:0;
-}
+  }
+  header{
+    padding-bottom:2em;
+  }
+
   #banner{
     width: 100%;
   }
+#perdiv_view *{
+  width:100%;
+  display:block;
+}
+
+#skype_contact ul >li:not(:last-child) {
+  border-bottom:1px solid;
+  padding:1em 0;
+}
+
+#skype_contact ul > li > *{
+  display:block;
+}
+
+#banner{
+  margin-bottom:2em;
+}
+
+#main_menu a{
+  font-size: 100%;
+  width:50%;
+  margin: 1em auto;
+}
 
 
 }

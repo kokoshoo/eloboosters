@@ -1,7 +1,6 @@
-     <hr>
 
       <footer>
-        <p>&copy; EloBoosters Я Us</p>
+        <p><strong>&copy; EloBoosters Я Us</strong></p>
       </footer>
 
     </div> <!-- /container -->

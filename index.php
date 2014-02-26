@@ -1,11 +1,17 @@
 <?php include("templates/header.php") ?>
 
-
-
-
       <div class="jumbotron">
-        <h1>We'll boost you with our epic supports</h1>
-        <p class="lead">...and feeders</p>
+        <h1>Why boostersrus?</h1>
+        <p class="lead">We are not your average boosting website. 
+          Those websites often have an owner that operates the 
+          business from another country and gets a booster to do the job, 
+          overcharging the client. Here at boostersrus we are actual 
+          boosters. We have experience from working with mulitple 
+          websites, forums, and boosting personal clients. We understand 
+          what a client wants when he/she purchases an elo boost. We will 
+          work our hardest to provide the customer anything they want to 
+          accomplish through their purche. This elo boosting service is
+          efficient and you will feel comfortable using it.</p>
       </div>
 
       <hr>

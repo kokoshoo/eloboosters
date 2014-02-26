@@ -1,3 +1,4 @@
+<h2>Unranked Placement</h2>
 <img id="unranked_picture" src="assets/img/unranked.jpg">
   <h4> Your previous season rank </h4>
   <select id="unranked_selected_division" onchange="changeDivision();">

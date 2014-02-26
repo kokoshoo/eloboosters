@@ -1,3 +1,4 @@
+<h2> Per Win Pricing </h2>
 <img id="perwin_picture" src="assets/img/bronze.jpg">
   <h4> Your previous season rank </h4>
   <select id="perwin_selected_division" onchange="changeDivision();">
@@ -8,11 +9,11 @@
     <option class="diamond">Diamond</option>
   </select>
    <select id="perwin_selected_rank" onchange="calcPrice();">
-    <option class="1">1</option>
-    <option class="2">2</option>
-    <option class="3">3</option>
-    <option class="4">4</option>
     <option class="5">5</option>
+    <option class="4">4</option>
+    <option class="3">3</option>
+    <option class="2">2</option>
+    <option class="1">1</option>
   </select>
   <h4> Number of wins to be purchased </h4>
   <p id="perwin_games_purchased">5</p>
